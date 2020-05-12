@@ -12,7 +12,7 @@ def summon_captain_planet(array)
   collection = []
   i = 0 
   array.collect do |calls|
-  collection << array[i].capitalize + "!"
+  collection << calls.capitalize + "!"
   i += 1
   end
   collection
